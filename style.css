@@ -13,6 +13,9 @@ section::before {
     top: 20px;
     left: -30px;
 }
+p {
+    text-align: justify;
+}
 
 .btn.button {
     border: 3px solid black;
