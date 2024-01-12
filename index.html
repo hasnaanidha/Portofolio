@@ -20,33 +20,33 @@
 						<a class="nav-link active" aria-current="page" href="#home">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="#about">About</a>
+						<a class="nav-link" aria-current="page" href="#About">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="#work">Work</a>
+						<a class="nav-link" aria-current="page" href="#Work">Work</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="#contact">Contact</a>
+						<a class="nav-link"  href="#Contact">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</div> 
 	</nav>
 	<section id="home" class="home container">
-		<div class="row d-flex align-items-center">
-			<div class="col-8">
+		<div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+			<div class="col-12 col-md-8">
 				<h3 class="fw-semibold">Hi!! I am</h3>
 				<h1 class="fw-bold">Hasna Anidha</h1>
 				<h5>I am Front end Development</h5>
 				<a class="btn button" href="images/potrait.png" download>Resume</a>
 			</div>
-			<div class=" img col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
-				<img  src="images/potrait.png" alt="Potrait">
+			<div class="img col-12 col-md-4 d-flex justify-content-md-end justify-content-center ">
+				<img id="foto" src="images/potrait.png" alt="Potrait">
 			</div>
-			<div class=" arrow w-100 d-flex align-items-center flex-column mt-5">
-				<a class="text-decoration-none text-dark" href="#About"> More Info </a>
+			<a href="#About" class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt-5">
+				<div class="text-dark"> More Info </div>
 				<img id="arrow" class="mt-2" src="images/arrow.svg" alt="arrow icon">
-			</div>
+			</a>
 		</div>
 	</section>
 	<section id="About" class="about container">
@@ -86,10 +86,10 @@
 	</section>
 	<section id="Work" class="Work container">
 		<div class="row d-flex align-items-center gap-5">
-			<div class="col">
+			<div class="col-12 col-md-5">
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vero laboriosam debitis inventore excepturi dolor corporis ducimus numquam, vitae temporibus autem nulla tenetur reprehenderit quasi soluta neque nemo? Ad unde voluptatem corrupti rerum officiis eius similique perspiciatis dolorem ex. Expedita ad libero ut aliquid voluptate rem deleniti hic doloribus quasi!</p>
 			</div>
-			<div class="col work-img">
+			<div class="col-12 col-md-6 work-img">
 				<div id="work-1" class="work-img-item">
 					<img src="images/work-1.png" alt="work 1">
 				</div>
@@ -105,7 +105,7 @@
 	</section>
 	<section id="Contact" class="Contact container">
 		<div class="row d-flex align-items-center gap-5">
-			<div class="col">
+			<div class="col-12 col-md-6">
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vero laboriosam debitis inventore excepturi dolor corporis ducimus numquam, vitae temporibus autem nulla tenetur reprehenderit quasi soluta neque nemo? Ad unde voluptatem corrupti rerum officiis eius similique perspiciatis dolorem ex. Expedita ad libero ut aliquid voluptate rem deleniti hic doloribus quasi! </p>
 				<div class="row">
 					<div class="col d-flex align-items-center">
@@ -122,7 +122,7 @@
 					</div>	
 				</div>
 			</div>	
-			<div class="col">
+			<div class="col-12 col-md-5">
 				<form class="contact-form">
 					<div class="mb-3">
 						<label for="inp_email" class="form-label">Email address</label>
